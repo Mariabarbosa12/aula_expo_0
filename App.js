@@ -3,12 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Exemplo_0 from './compenents/exemplo_1';
 
+import Exemplo2 from './compenents/exemplo_2';
+
 import Atividades_1 from './compenents/atividades_1';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividades_1/>
+      <Exemplo2/>
       <StatusBar style="auto" />
     </View>
   );
