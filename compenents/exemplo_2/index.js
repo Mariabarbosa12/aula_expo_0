@@ -5,7 +5,13 @@ import styles from './styles';
 function Exemplo2 (){
      return (
         <View style={styles.container}>
-            <Text>Exemplo_2</Text>
+        
+            <Text style={styles.titulo}>Exemplo_2</Text>
+
+         <View style={styles.vimensagem}>
+            <Text style={styles.mensagem}> Ola Maju</Text>
+            </View>
+
         </View>
      );
 }
