@@ -7,8 +7,9 @@ const styles = StyleSheet.create ({
    } ,
 
    text: {
- 
-    fontSize: 20,
+    fontFamily: 'serif',
+    fontSize: 30,
+    margin:15,
    }
 
 
