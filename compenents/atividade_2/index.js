@@ -9,7 +9,7 @@ export default function Atividade_2 () {
      <View style={styles.container}>
       <Text style={styles.text}>Lista de frutas </Text>
     
-  
+
       <Mensagem fruta='Banana'/>
           <Mensagem fruta='Uva'/>
           <Mensagem fruta='Pera'/>
@@ -17,10 +17,10 @@ export default function Atividade_2 () {
           <Mensagem fruta='Melancia'/>
           <Mensagem fruta='Melão'/>
           <Mensagem fruta='Goiaba'/>
-          <Mensagem fruta='Pocã'/>
-
+          <Mensagem fruta='Ponca'/>
+          </View>
      
-     </View>
+  
     );
 }
 

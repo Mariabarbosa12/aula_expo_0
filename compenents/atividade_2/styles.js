@@ -4,6 +4,8 @@ const styles = StyleSheet.create ({
 
    container:{
    flex:1,
+
+
    } ,
 
    text: {
@@ -12,6 +14,7 @@ const styles = StyleSheet.create ({
     margin:15,
    }
 
+  
 
 });
 
