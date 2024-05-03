@@ -7,6 +7,8 @@ const styles = StyleSheet.create({
         flex:1,
         backgroundColor:'#ffbaef',
         borderRadius:20,
+        width:'100%',
+        alignItems:'center',
     },
 
     titulo:{
@@ -14,7 +16,15 @@ const styles = StyleSheet.create({
         fontWeight:'bold',
         marginVertical: 20,
         color:'#ff4dd6',
-    }
+    },
+
+    botao:{
+     borderWidth:2,
+     padding:5,
+     width:'80%',
+     borderRadius:10,
+     alignItems:'center',
+    },
 })
 
 export default styles;
