@@ -22,9 +22,19 @@ const styles = StyleSheet.create({
      borderWidth:2,
      padding:5,
      width:'80%',
-     borderRadius:10,
+     borderRadius:8,
      alignItems:'center',
+     borderColor:'#cc3fac',
     },
-})
+
+    txtBotao:{
+        fontSize:20,
+        color:'#cc3fac',
+    },
+
+    botaoPress:{
+       backgroundColor:'#734af0',
+    },
+});
 
 export default styles;
