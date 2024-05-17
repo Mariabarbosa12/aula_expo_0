@@ -1,0 +1,71 @@
+import { useState } from 'react';
+
+import {View, Text, Pressable} from 'react-native';
+
+import styles from './styles';
+
+export default function Atividade_3() {
+
+  const [numero, setNumero] = useState(0);
+
+    function incremento () {
+       setNumero(numero + 1);
+     }
+
+     function menos () {
+        setNumero(numero - 1);
+      }
+
+      function zerar () {
+        setNumero(numero -numero);
+      }
+  
+    return(
+        <View style={styles.container}>
+        
+            <Text style={styles.titulo}>ATIVIDADE 3</Text>
+
+             <Text style={styles.txtNumero}>{numero}</Text>
+
+            <Pressable 
+                 onPress={() => incremento()} 
+                 style={ ({pressed}) => pressed ? 
+               [ styles.maisBotao,styles.botaoPress]
+             :
+                styles.maisBotao}
+            >
+
+              <Text style={styles.txtBotao}>+</Text>
+
+            </Pressable>
+
+            
+            <Pressable 
+                 onPress={() => menos()} 
+                 style={ ({pressed}) => pressed ? 
+               [ styles.botao, styles.botaoPress]
+             :
+                styles.botao}
+            >
+
+              <Text style={styles.txtBotao}>-</Text>
+
+            </Pressable>
+
+            
+            <Pressable 
+                 onPress={() => zerar()} 
+                 style={ ({pressed}) => pressed ? 
+               [ styles.zerarBotao, styles.botaoPress]
+             :
+                styles.zerarBotao}
+            >
+
+              <Text style={styles.txtBotao}>Zerar</Text>
+
+            </Pressable>
+
+        </View>
+    );
+
+}
