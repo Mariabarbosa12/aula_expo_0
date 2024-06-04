@@ -9,6 +9,12 @@ const styles = StyleSheet.create({
         width:'100%',
         alignItems:'center',
     },
+   container2:{
+ display:'flex',
+ flexDirection:'row',
+
+   },
+
 
     titulo:{
         fontSize:30,
@@ -28,6 +34,7 @@ const styles = StyleSheet.create({
      height:50,
      width:65,
 
+
     },
 
     txtBotao:{
@@ -43,37 +50,9 @@ const styles = StyleSheet.create({
         fontSize:30,
         color:'#734af0',
         marginVertical: 10,
-    },
+        marginBottom:-50,
+        },
 
-    maisBotao:{
-       marginRight:200,
-       borderWidth:2,
-       padding:5,
-       width:'80%',
-       borderRadius:8,
-       alignItems:'center',
-       borderColor:'#cc3fac',
-       margin:10,
-       height:50,
-       width:65,
-       
-  
-    },
-    
-    zerarBotao:{
-
-        borderWidth:2,
-        padding:5,
-        width:'80%',
-        borderRadius:8,
-        alignItems:'center',
-        borderColor:'#cc3fac',
-        margin:10,
-        height:50,
-        width:65,
-        
-   
-     },
     
 });
 

@@ -25,14 +25,14 @@ export default function Atividade_3() {
         
             <Text style={styles.titulo}>ATIVIDADE 3</Text>
 
-             <Text style={styles.txtNumero}>{numero}</Text>
-
+             <Text style={styles.txtNumero}> {numero} </Text>
+        <View style={styles.container2}>
             <Pressable 
                  onPress={() => incremento()} 
                  style={ ({pressed}) => pressed ? 
-               [ styles.maisBotao,styles.botaoPress]
+               [ styles.botao,styles.botaoPress]
              :
-                styles.maisBotao}
+                styles.botao}
             >
 
               <Text style={styles.txtBotao}>+</Text>
@@ -51,14 +51,14 @@ export default function Atividade_3() {
               <Text style={styles.txtBotao}>-</Text>
 
             </Pressable>
-
+            </View>
             
             <Pressable 
                  onPress={() => zerar()} 
                  style={ ({pressed}) => pressed ? 
-               [ styles.zerarBotao, styles.botaoPress]
+               [ styles.botao, styles.botaoPress]
              :
-                styles.zerarBotao}
+                styles.botao}
             >
 
               <Text style={styles.txtBotao}>Zerar</Text>
