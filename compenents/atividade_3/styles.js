@@ -25,8 +25,7 @@ const styles = StyleSheet.create({
 
     botao:{
      borderWidth:2,
-     padding:5,
-     width:'80%',
+     padding:5,      
      borderRadius:8,
      alignItems:'center',
      borderColor:'#cc3fac',
