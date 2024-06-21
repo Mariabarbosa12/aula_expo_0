@@ -13,12 +13,14 @@ import Atividade_2 from './compenents/atividade_2';
 
 import Atividade_3 from './compenents/atividade_3';
 
+import Exemplo_4 from './compenents/exemplo_4';
+
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade_3/>
+      <Exemplo_4/>
       <StatusBar style="auto" />
     </View>
   );
