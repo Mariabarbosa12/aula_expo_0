@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 
     input:{
     fontSize: 25,
-    color:'#ffbaef',
+    color:'#ad0a77',
     width:'80%',
     marginVertical:10,
     borderColor:'#cc3fac',
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
 
     texto:{
         fontSize: 25,
-        color:'#ffbaef',
+        color:'#ad0a77',
         width:'80%',
         marginVertical:5, 
     }
